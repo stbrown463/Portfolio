@@ -13,6 +13,11 @@ main {
 	align-items: center;
 }
 
+.flex-row {
+	display: flex;
+	justify-content: space-around;
+}
+
 section {
 	width: 80%;
 	background-color: lightgray;
@@ -20,4 +25,14 @@ section {
 
 p {
 	text-align: center;
+}
+
+.img-container {
+
+}
+
+.screenshot {
+	width: 48%;
+	height: 500px;
+	border: 2px solid black;
 }
