@@ -1,10 +1,23 @@
 body {
+	background-image: url('../hamms-passer-imgs/Chicago.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+h1, h2, h3, h4 {
+	font-family: 'Nova Flat', cursive;
+}
+
+p, nav {
+ font-family: 'Roboto', sans-serif;
 }
 
 main {
-	background-color: lightblue;
+	background-color: rgba(82, 103, 122, .6);
 	width: 80%;
+	border-radius: 10px;
+	display: flex;
 }
 
 .flex-center {
@@ -20,11 +33,16 @@ main {
 
 section {
 	width: 80%;
-	background-color: lightgray;
+	background-color: rgb(82, 103, 122);
+	border-radius: 10px;
+	border: 2px solid black;
+	padding: 10px;
 }
 
 p {
 	text-align: center;
+	color: linen;
+	max-width: 800px;
 }
 
 .img-container {
